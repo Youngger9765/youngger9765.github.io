@@ -1,0 +1,116 @@
+/*common*/
+.wrapper{
+	margin: 0 auto;
+	max-width: 1180px;
+	width: 100%
+}
+
+ul{
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none; 
+}
+
+li{
+	display: inline-block;
+}
+
+li a{
+	color: #ccc;
+	text-decoration: none;
+}
+
+.clearfix{
+	clear: both;
+}
+
+
+/*header */
+
+#header{
+	background: #222;
+	height: 40px;
+	width: 100%;
+	margin: auto;
+}
+
+#header .home{
+	float: left;
+	
+}
+
+#header .link-search{
+	float: right;
+
+	
+}
+
+#header .link{
+	float: left;
+	height: 40px;
+	border-right: 1px solid gray ;
+	margin-right: 10px;
+}
+
+#header .search{
+	float: right;
+	height: 100%;
+	margin: 0 auto;
+}
+
+#header .search input{
+	height: 50%;
+	margin: 10px 20px 10px 10px;
+}
+
+#header ul{
+	height: 10%;
+}
+
+#header li{
+	padding: 10px;
+}
+
+
+
+/*contents*/
+
+#contents{
+	margin: 0px auto;
+	height: 2000px;
+	background: pink;
+
+}
+#contents .menu{
+	height: 50px;
+	width: 1129px;
+	margin: auto;
+	background: #fff;
+}
+#contents .menu ul{
+	margin: 10px;
+	text-align: center;
+}
+
+#contents .menu ul li{
+	padding: 10px;
+	margin: 0 20px;
+	font-size: 16px;
+}
+
+#contents .menu ul li a{
+	
+	color: black;
+}
+
+#contents .logo{
+	margin: auto;
+	text-align: center;
+
+}
+
+
+
+
+
+
