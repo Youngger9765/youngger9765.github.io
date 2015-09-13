@@ -87,7 +87,10 @@ li a{
 
 #contents .user-domain{
 	background: green;
+	border: 1px solid green;
+	padding: 0;
 	height: 158px;
+	
 }
 
 #contents .user-domain .link{
