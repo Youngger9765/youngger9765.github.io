@@ -30,6 +30,7 @@ li a{
 #header .control-bar{
 	background: gray;
 	height: 58px;
+	border: 1px solid gray;
 	
 }
 
