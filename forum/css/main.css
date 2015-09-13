@@ -43,11 +43,12 @@ li a{
 #header .control-bar ul{
 	margin: 0;
 	display: inline-block;
+	line-height: 58px;
 }
 
 #header .control-panel {
 	float: right;
-	margin: 20px 0;
+	
 }
 
 #header .control-panel ul li{
