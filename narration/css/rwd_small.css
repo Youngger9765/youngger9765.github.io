@@ -1,0 +1,54 @@
+/* for small size device*/
+
+@media (max-width:480px){
+	
+	#contents {
+		background: white;
+	}
+	
+	#contents .wrapper .logo{
+		background: purple;
+	}
+
+	#contents .show{
+		width: 480px;
+	}
+
+	#contents .wrapper .show .main{
+		display: block;
+		float: left;
+		width: 100%;
+		background: #444;
+	}
+
+	#contents .wrapper .show .side-bar{
+		display: block;
+		float: left;
+		width: 100%;
+		background: #49a;
+		margin-top: 10px;
+	}
+	#contents .show{
+		width: 90%;
+		margin: 0 auto;
+	}
+
+	#footer .block{
+		margin: 5% 5%;
+		width: 90%;
+	}
+
+}
+
+@media (max-width:1220px){
+	#contents .logo{
+		background: red;
+	}
+
+	#contents .show{
+		width: 90%;
+		margin: 0 auto;
+	}
+}
+
+
