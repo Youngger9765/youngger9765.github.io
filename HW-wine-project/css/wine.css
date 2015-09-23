@@ -1,0 +1,55 @@
+#header{
+	background: white;
+}
+
+#header ul {
+	margin: 3% auto;
+	border: 3px solid black;
+	margin-right: 20%;
+}
+
+#navbox{
+	margin: 10px auto;
+	display: inline-block;
+}
+
+#nav-logo{
+	display: inline-block;
+	float: right;
+}
+
+#nav-control{
+	display: inline-block;
+	float: left;
+}
+
+#content{
+	margin: 120px auto; 
+}
+
+#show{
+	margin: 120px auto;
+}
+
+#show .title h1{
+	text-align: center;
+}
+
+#show .products .row{
+	margin: 3% auto;
+}
+
+
+
+
+#location{
+	margin-top: 3%;
+}
+
+#footer{
+	background: black;
+}
+
+#footer .row{
+	text-align: center;
+}
