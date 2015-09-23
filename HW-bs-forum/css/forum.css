@@ -1,0 +1,41 @@
+#nav2{
+	background: #aaa;
+}
+
+#nav2 img{
+	margin: 5% auto;
+}
+
+#nav2 .navbar-right ul li{
+	display: inline-block;
+	margin: 10%;
+	
+}
+
+#nav2 .navbar-right ul{
+	text-align: right;
+}
+
+
+#footer{
+	background: gray;
+}
+
+#footer .navbar-right ul li{
+	display: inline-block;
+}
+
+#team-info{
+	background: #111;
+}
+
+#team-info ul li{
+	display: inline-block;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+
+#team-info ul {
+	padding: 0;
+}
