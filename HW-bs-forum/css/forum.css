@@ -16,6 +16,55 @@
 	text-align: right;
 }
 
+#content .link .row{
+	margin-top: 2%;
+}
+
+
+#content .databox{
+	margin: 20px auto;
+}
+
+#content .databox .col-sm-1 p{
+	text-align: center;
+}
+
+#content .content-end{
+	margin: 1% auto;
+
+}
+
+
+.post-box .row{
+	border: 1px solid gray;
+	width: 100%;
+	margin: 0 auto;
+
+}
+
+.post-box{
+	margin: 20px auto;
+}
+
+#content img{
+	width: 100%;
+}
+
+#content .title{
+	background: #666;
+	padding: 1%;
+}
+
+
+.databox ul li{
+	display: inline-block;
+}
+
+.databox .row{
+	border: 1px solid gray;
+	padding: 2%;
+
+}
 
 #footer{
 	background: gray;
