@@ -1,0 +1,357 @@
+.wrapper{
+	max-width: 944px;
+	margin: 0 auto;
+}
+
+.clearfix{
+	clear: both;
+}
+
+ul{
+	margin: 0;
+	padding-left: 0;
+	list-style-type: none; 
+}
+
+li{
+	display: inline-block;
+	margin: 5px;
+}
+
+li a{
+	color: #ccc;
+	text-decoration: none;
+}
+
+
+
+/*  header  */
+
+#header .control-bar{
+	background: gray;
+	height: 58px;
+	border: 1px solid gray;
+	
+}
+
+#header .search{
+	margin: 14px 0 ; 
+	
+	height: 28px;
+}
+
+#header .control-bar ul{
+	margin: 0;
+	display: inline-block;
+	line-height: 58px;
+}
+
+#header .control-panel {
+	float: right;
+	display: inline-block;
+	
+}
+
+#header .control-panel ul li{
+	margin: 0 5px;
+	font-size: 13px;
+}
+
+#header .logo-service{
+	background: #aaa;
+	height: 116px;
+}
+
+#header .logo-service img{
+	margin: 30px;
+	float: left;
+}
+
+#header .logo-service ul{
+	float: right;
+	margin: 30px;
+
+}
+
+#header .logo-service ul li{
+	font-size: 20px;
+	margin: 10px;
+	background: green;	
+}
+
+
+
+
+/*===========contents==============*/
+#contents{
+	background: #ddd;
+
+}
+
+#contents .user-domain{
+	background: green;
+	border: 1px solid green;
+	padding: 0;
+	height: 158px;
+	
+}
+
+#contents .user-domain .link{
+	margin-top: 45px;
+	text-align: center;
+}
+
+#contents .user-domain .description{
+	margin: auto;
+	text-align: center;
+}
+
+.nav i{
+	display: block;
+	margin-top: 15px;
+	margin-bottom: 30px;
+}
+.nav>div{
+	background: red;
+	display: inline-block;
+	font-size: 16px;
+}
+.nav .menu{
+	float: left;
+}
+
+.nav .mark{
+	float: right;
+}
+
+#contents .main{
+	border: 1px solid red;
+	margin-top: 15px;
+	width: 100%;
+	
+	
+}
+
+#contents .main>div{
+	border: 1px solid black;
+	display: inline-block;
+
+}
+
+#contents .main .info{
+	width: 637px;
+	float: left;
+	margin-bottom: 15px;
+}
+
+#contents .main .info .category{
+	width: 100%;
+	border: 1px solid red;
+}
+
+#contents .main .info .category .row1>div{
+	display: inline-block;
+}
+
+#contents .main .info .category .row1{
+	color: white;
+	background:  green;
+	height: 50px;	
+	border: 2px solid gray;
+}
+
+
+#contents .main .info .category  .col1{
+	width: 55%;
+	height: 100%;
+	line-height: 50px;
+	margin-left: 10px; 
+	
+	
+}
+
+#contents .main .info .category  .col2{
+	width: 30px;
+	margin: 0 5px;
+	text-align: center;
+	
+}
+#contents .main .info .category  .col4{
+	width: 140px;
+	margin: 0 5px;
+	
+	
+}
+
+#contents .main .info .category li{
+	font-size: 10px;
+}
+
+#contents .main .info .category .row2>div{
+	display: inline-block;
+}
+
+#contents .main .info .category .row2{
+	color: black;
+	background:  white;
+	height: 95px;	
+	border: 4px solid gray;
+}
+
+#contents .main .info .category .row2 .col1{
+	width: 55%;
+	height: 100%;
+	line-height: 95px;
+	margin-left: 10px; 	
+}
+
+#contents .main .info .category .row2 img{
+	float: left;
+	margin: 20px 3px;
+}
+
+#contents .block{
+	border: 2px solid black;
+	margin: 10px 0px;
+	background: #fff;
+}
+
+#contents .title{
+	background: black;
+	height: 50px;
+	line-height: 50px;
+	border: 1px solid black;
+
+}
+
+#contents .title li{
+	color: #fff;
+	margin-left: 20px;
+}
+
+
+#contents .main .sidebar{
+	width: 280px;
+	float: right;
+}
+
+
+#contents .sidebar .block{
+	width: 280px;
+}
+
+#contents .sidebar .block img{
+	width: 100%;
+}
+
+
+
+#contents .block p{
+	margin-left: 20px;
+}
+
+
+#contents .block ul{
+	margin: 20px;
+}
+
+#contents .finish{
+	display: block;
+	margin-top: 15px;
+}
+
+
+#contents .finish{
+	width: 100%;
+	margin: 0;
+	height: 40px;
+	border: 3px solid black;
+}
+
+#contents .finish ul>li:first-child{
+	float: left;
+	color: black;
+	
+}
+
+#contents .finish a{
+	line-height: 40px;
+}
+
+#contents .finish li{
+	float: right;
+	margin: 15px;
+}
+
+
+/*footer*/
+#footer{
+	background: gray;
+	display: block;
+
+}
+
+#footer .title{
+	display: inline-block;
+	float: left;
+	width: 30%;
+	margin-right: 3%;
+}
+
+#footer .service{
+	border-bottom: 3px solid white;
+}
+
+#footer .title ul li{
+	display: block;
+	color: white;
+}
+
+#footer .copyright{
+	display: block;
+	height: 75px;
+}
+
+#footer .owner{
+	display: inline-block;
+	float: left;
+	width: 35%;
+	margin: 2% 0;
+}
+
+#footer .link-icon{
+	display: inline-block;
+	float: right;
+
+}
+
+#footer .link-icon ul{
+	line-height: 75px;
+}
+
+#control-bottom{
+	background: #333;
+	height: 54px;
+	
+}
+
+#control-bottom .wrapper>div:first-child{
+	float: left;
+	line-height: 54%;
+}
+
+#control-bottom .wrapper>div:nth-child(2){
+	float: right;
+}
+
+#control-bottom .detail ul{
+	line-height: 54px;
+}
+#control-bottom .detail ul li{
+	margin: 0 5px;
+	display: inline-block;
+	
+}
+
+
+
