@@ -1,5 +1,5 @@
 $.ajax({
-  url: 'http://api.randomuser.me/?results=20',
+  url: 'http://api.randomuser.me/?results=100',
   dataType: 'json',
   success: function(data){
     console.log(data);
