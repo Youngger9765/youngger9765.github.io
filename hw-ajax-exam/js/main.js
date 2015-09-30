@@ -14,7 +14,8 @@ $.ajax({
     	var first_name = people.user.name.first;
     	var last_name = people.user.name.last;
     	li.append('<br>').append(first_name +' ' + last_name);
-
+      li.append('<br>')
+      li.append('<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">contact me</a>')
 
     	
     	
