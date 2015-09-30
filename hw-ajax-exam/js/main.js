@@ -15,12 +15,14 @@ $.ajax({
     	var last_name = people.user.name.last;
     	li.append('<br>').append(first_name +' ' + last_name);
       li.append('<br>')
+
       li.append('<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">contact me</a>')
+      $('#name ul').append(li);
 
-    	
-    	
+      //加入電話資訊
 
-    	$('#name ul').append(li);
+
+
     });
   }
 });
