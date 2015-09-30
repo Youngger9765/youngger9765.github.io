@@ -16,10 +16,13 @@ $.ajax({
     	li.append('<br>').append(first_name +' ' + last_name);
       li.append('<br>')
 
-      li.append('<a href="#myModal" class="btn btn-lg btn-primary" data-toggle="modal">contact me</a>')
+      li.append('<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button>')
+      
       $('#name ul').append(li);
 
       //加入電話資訊
+      var number = people.user.phone;
+      $('#box-info h1').append(number);
 
 
 
