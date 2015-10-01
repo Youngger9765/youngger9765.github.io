@@ -3,6 +3,7 @@ $.ajax({
   dataType: 'json',
   success: function(data){
     console.log(data);
+    console.log('aaa');
 
     $.each(data.results, function(index,people){
     	var li = $('<li>');
@@ -16,13 +17,23 @@ $.ajax({
     	li.append('<br>').append(first_name +' ' + last_name);
       li.append('<br>')
 
-      li.append('<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button>')
       
+      //var number = people.user.phone;
+
+      li.append('<button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Contact Me</button>')
+      li.append('<br>')
+
+
+
+
+
       $('#name ul').append(li);
 
       //加入電話資訊
-      var number = people.user.phone;
-      $('#box-info h1').append(number);
+      
+      $('#myModal h3').append(number);
+      $('#myModal h4').people.user.name.first;
+
 
 
 
